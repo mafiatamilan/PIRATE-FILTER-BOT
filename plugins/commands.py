@@ -27,11 +27,11 @@ async def start(client, message):
                     InlineKeyboardButton('Mᴀɪɴ Cʜᴀɴɴᴇʟ ⚡', url=CHNL_LNK),
                     InlineKeyboardButton('🔰 REQEST GROUP', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('Rᴇᴘᴏʀᴛ ⭕', callback_data='help'),
+                    InlineKeyboardButton('Rᴇᴘᴏʀᴛ ⭕', url=f"http://t.me/PIRATE_LINKS_REPORT_Bot"),
                     InlineKeyboardButton(' Aʙᴏᴜᴛ 😉', callback_data='about')
              #       InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
-                    InlineKeyboardButton('Jᴏɪɴ BᴀᴄᴋUᴘ Cʜᴀɴɴᴇʟ😎', url=CHNL_LNK)
+                    InlineKeyboardButton('Jᴏɪɴ BᴀᴄᴋUᴘ Cʜᴀɴɴᴇʟ😎', url=f"https://t.me/+hu_6YCI-bqMwYzI1")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
