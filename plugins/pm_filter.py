@@ -242,10 +242,10 @@ async def next_page(bot, query):
     btn.insert(0, [
         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url=f"https://t.me/Pirate_Links/16"),
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
-    ])
-    btn.insert(0, [
+#    ])
+#    btn.insert(0, [
         #InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
-    ])
+#    ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -356,9 +356,9 @@ async def language_check(bot, query):
             InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
         ])
 
-        btn.insert(0, [
+       # btn.insert(0, [
           #  InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
-        ])
+    #    ])
 
         if offset != "":
             key = f"{query.message.chat.id}-{query.message.id}"
@@ -725,7 +725,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                                InlineKeyboardButton('Rᴇᴘᴏʀᴛ ⭕', url=f"http://t.me/PIRATE_LINKS_REPORT_Bot"),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                            # ],[
                               #  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
@@ -744,7 +744,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I ʟɪᴋᴇ Yᴏᴜʀ Sᴍᴀʀᴛɴᴇss Bᴜᴛ Dᴏɴᴏᴛ Oᴠᴇʀ Sᴍᴀʀᴛ😒", show_alert=True)
+            await query.answer("I ʟɪᴋᴇ Yᴏᴜʀ Sᴍᴀʀᴛɴᴇss Bᴜᴛ Dᴏɴᴏᴛ Bᴇ Oᴠᴇʀ Sᴍᴀʀᴛ😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         if file_id == "send_all":
@@ -798,7 +798,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                  InlineKeyboardButton('Rᴇᴘᴏʀᴛ ⭕', url=f"http://t.me/PIRATE_LINKS_REPORT_Bot"),
                   InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
           #     ],[
              #     InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
