@@ -242,7 +242,7 @@ async def next_page(bot, query):
     btn.insert(0, [
         InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url=f"https://t.me/Pirate_Links/16"),
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
-#    ])
+      ])
 #    btn.insert(0, [
         #InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
 #    ])
