@@ -1,9 +1,9 @@
 class script(object):
     START_TXT = """<b>Hello ... {} 👋</b>
-    <b>✯ My Name is <a href=http://t.me/piratefilterbot><b>Pɪʀᴀᴛᴇ Fɪʟᴛᴇʀ Bᴏᴛ V1.0</b></a>
-    <b>✯ I Can Provide MOVIES,SERIES And Lot More</b>
-    <b>✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Pirate_Links</b>
-    <b>✯ Team -@Pirate_Links</b>"""
+    ✯ My Name is <a href=http://t.me/piratefilterbot><b>Pɪʀᴀᴛᴇ Fɪʟᴛᴇʀ Bᴏᴛ V1.0</b></a>
+    ✯ I Can Provide MOVIES,SERIES And Lot More</b>
+    ✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Pirate_Links</b>
+    ✯ Team - @Pirate_Links</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
