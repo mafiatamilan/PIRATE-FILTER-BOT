@@ -245,7 +245,7 @@ async def next_page(bot, query):
       ])
 #    btn.insert(0, [
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
-#    ])
+      ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
