@@ -240,11 +240,12 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url=f"https://t.me/Pirate_Links/16"),
+        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url=f"https://t.me/Pirate_Links/16")
         
       ])
 #    btn.insert(0, [
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
+
       ])
     try:
         await query.edit_message_reply_markup(
