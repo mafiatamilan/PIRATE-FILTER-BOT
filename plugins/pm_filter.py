@@ -193,7 +193,7 @@ async def next_page(bot, query):
                     [
                         InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
-                        InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
+                        InlineKeyboardButton("Ｎ Ξ ＸＴ", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
                 )
         else:
@@ -214,7 +214,7 @@ async def next_page(bot, query):
                     [
                         InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"),
-                        InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
+                        InlineKeyboardButton("Ｎ Ξ ＸＴ", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
                 )
     except KeyError:
@@ -236,15 +236,16 @@ async def next_page(bot, query):
                 [
                     InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
                     InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
-                    InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
+                    InlineKeyboardButton("Ｎ Ξ ＸＴ", callback_data=f"next_{req}_{key}_{n_offset}")
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url=f"https://t.me/Pirate_Links/16")
-        
+        InlineKeyboardButton("⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url=f"https://t.me/Pirate_Links/16"),
+        InlineKeyboardButton("★ Lᴀɴɢᴜᴀɢᴇs ★", callback_data=f"select_lang#{req}")
       ])
     btn.insert(0, [
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
+        
+        InlineKeyboardButton("⭕ Cʜᴇᴄᴋ Bᴏᴛ PM  ⭕", url=f"https://t.me/{temp.U_NAME}")
 
       ])
     try:
@@ -353,12 +354,13 @@ async def language_check(bot, query):
             )
         
         btn.insert(0, [
-            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url=f"https://t.me/Pirate_Links/16"),
+            InlineKeyboardButton("⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url=f"https://t.me/Pirate_Links/16"),
+            InlineKeyboardButton("★ Lᴀɴɢᴜᴀɢᴇs ★", callback_data=f"select_lang#{req}")
             
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
+            InlineKeyboardButton("⭕ Cʜᴇᴄᴋ Bᴏᴛ PM  ⭕", url=f"https://t.me/{temp.U_NAME}")
         ])
 
         if offset != "":
@@ -1622,12 +1624,13 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ", url=f"https://t.me/Pirate_Links/16"),
+        InlineKeyboardButton("⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url=f"https://t.me/Pirate_Links/16"),
+        InlineKeyboardButton("★ Lᴀɴɢᴜᴀɢᴇs ★", callback_data=f"select_lang#{req}")
         
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{message.from_user.id}")
+        InlineKeyboardButton("⭕ Cʜᴇᴄᴋ Bᴏᴛ PM  ⭕", url=f"https://t.me/{temp.U_NAME}")
     ])
 
     if offset != "":
