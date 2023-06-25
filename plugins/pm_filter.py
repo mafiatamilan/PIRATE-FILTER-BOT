@@ -1687,7 +1687,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
+        cap =f"𝙃𝙚𝙧𝙚 𝙞𝙨 𝙒𝙝𝙖𝙩 𝙞 𝙁𝙤𝙪𝙣𝙙 𝙁𝙤𝙧 𝙔𝙤𝙪𝙧 𝙌𝙪𝙚𝙧𝙮 <code>{search}</code>\n\n 🔗 Join : @Pirate_Links 🔗 ...\n\n 𝙏𝙧𝙮 𝙏𝙤 𝙁𝙤𝙧𝙬𝙖𝙧𝙙 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙩𝙤 𝙎𝙖𝙫𝙚𝙙 𝙈𝙚𝙨𝙨𝙖𝙜𝙚𝙨 𝙤𝙧 𝙩𝙤 𝙤𝙪𝙧 𝙁𝙧𝙞𝙚𝙣𝙙 𝙄𝙩 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙙𝙚𝙡𝙚𝙩𝙚𝙙 𝙖𝙛𝙩𝙚𝙧 10 𝙢𝙞𝙣𝙪𝙩𝙚𝙨 "
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
