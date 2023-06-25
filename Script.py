@@ -188,17 +188,8 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """
-    🔘 Your File Name <code>{file_name}</code>
+    CAPTION = """🔘 Your File Name <code>{file_name}</code>\n\n 🔘 size <code>{file_size}</code>\n\n ╭─── • ❰[Pirate Links](https://t.me/Pirate_Links)❱ • ────➤\n ┣ ▫️[𝙍𝙀𝙌𝙐𝙀𝙎𝙏 𝙂𝙍𝙊𝙐𝙋](https://t.me/+oLmTZktj5cQ2MWQ1)\n ┣ ▫️[𝙍𝙀𝙋𝙊𝙍𝙏](https://t.me/movieshubReport_bot) \n ╰─────── • ◆ • ───────➤"""
     
-    🔘 size <code>{file_size}</code>
-    
-    ╭─── • ❰[𝙋𝙄𝙍𝘼𝙏𝙀𝙇𝙄𝙉𝙆𝙎](https://t.me/pirate_Links)❱ • ────➤
-    ┣ ▫️[𝙍𝙀𝙌𝙐𝙀𝙎𝙏 𝙂𝙍𝙊𝙐𝙋](https://t.me/+oLmTZktj5cQ2MWQ1)
-    ┣ ▫️[𝙍𝙀𝙋𝙊𝙍𝙏](https://t.me/movieshubReport_bot) 
-    ╰─────── • ◆ • ───────➤
-"""
-
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
 IMDb Data:
